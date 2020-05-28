@@ -16,7 +16,7 @@ const Resultado = ({resultado, monedaLocal, monedaDestino}) => {
                 <div className="col s-12 mb-4 text-center">
                         {resultado > 500 ? 
                             <iframe src="https://giphy.com/embed/3o6gDWzmAzrpi5DQU8" width="350" height="300" className="imagenes" frameBorder="0"  allowFullScreen></iframe>
-                        : <iframe src="https://giphy.com/embed/3o6UB5RrlQuMfZp82Y" width="400" height="356" className="imagenes" frameBorder="0"  allowFullScreen></iframe>}
+                        : <iframe src="https://giphy.com/embed/3o6UB5RrlQuMfZp82Y" width="400" height="310" className="imagenes mr-3" frameBorder="0"  allowFullScreen></iframe>}
                 </div>
                 
             </div>

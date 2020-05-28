@@ -79,7 +79,7 @@ const Formulario = ({guardarCantidades, guardarMonedaLocal, guardarMonedaDestino
                 </div>
 
                 <div className="col s-12">
-                    <label>Moneda local</label>
+                    <label>Moneda de origen</label>
                     <SelectMonedaLocal />
                 </div>
                 
