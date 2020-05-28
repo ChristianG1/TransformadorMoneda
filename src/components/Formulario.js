@@ -79,12 +79,12 @@ const Formulario = ({guardarCantidades, guardarMonedaLocal, guardarMonedaDestino
                 </div>
 
                 <div className="col s-12">
-                    <label>Pais de origen</label>
+                    <label>Moneda local</label>
                     <SelectMonedaLocal />
                 </div>
                 
                 <div className="col s-12">
-                    <label>Pais del cambio</label>
+                    <label>Moneda destino</label>
                     <SelectMonedaDestino />
                 </div>
                 
@@ -92,7 +92,7 @@ const Formulario = ({guardarCantidades, guardarMonedaLocal, guardarMonedaDestino
 
             <div className="row">
                 <div className="col center-block text-center">
-                    <button type="submit" className="btn btn-outline-primary btn-lg btn-block mt-4 text-uppercase">Transformación</button>
+                    <button type="submit" className="btn btn-outline-primary btn-lg btn-block mt-4 text-uppercase">Cambiar</button>
                 </div>
             </div>
         </form>
